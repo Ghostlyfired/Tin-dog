@@ -1,0 +1,72 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial-h1{
+  position: relative;
+  right: 2.8%;
+  text-align: center;
+  font-size: xx-large;
+  color: black;
+  margin: 3rem;
+  margin-top: 0rem !important;
+}
+
+#testimonial{
+  margin: 3rem;
+}
+
+.testimonial-p{
+  color: black;
+  font-size: 1px;
+  margin-top: 1rem;
+}
+
+.icons>img{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+
+#pricing{
+  margin: 3rem;
+}
+
+#footer{
+  margin-top: 3rem;
+}
+
+#footer>footer{
+  margin-bottom: 0rem !important;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#features{
+  margin: 5rem !important;
+}
